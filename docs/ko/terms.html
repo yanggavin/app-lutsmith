@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>이용 약관 — LUT Smith</title>
+  <meta name="description" content="이용 약관">
+  <link rel="canonical" href="https://lutsmith-app.newtree.tech/terms/ko/">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #131313;
+      --surface: #201f1f;
+      --surface-high: #2a2a2a;
+      --text: #e5e2e1;
+      --muted: #b9cacb;
+      --accent: #00f0ff;
+      --border: #3b494b;
+      --max-width: 48rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); }
+    header, main, footer {
+      width: min(100% - 2rem, var(--max-width));
+      margin: 0 auto;
+    }
+    header {
+      padding: 1.5rem 0 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--muted);
+    }
+    nav a.active, nav a:hover {
+      color: var(--text);
+    }
+    .lang {
+      margin-top: 0.5rem;
+    }
+    .lang select {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.35rem 0.5rem;
+    }
+    main {
+      padding: 2rem 0 3rem;
+    }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      line-height: 1.2;
+      margin: 0 0 1rem;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+    }
+    section {
+      margin-bottom: 1.75rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-block;
+      background: var(--surface-high);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.65rem 1rem;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .button-primary {
+      border-color: var(--accent);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer {
+      padding: 0 0 2rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    ul { padding-left: 1.2rem; }
+    li + li { margin-top: 0.35rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">LUT Smith</div>
+    <nav>
+        <a href="https://lutsmith-app.newtree.tech/support/ko/">지원</a>
+        <a href="https://lutsmith-app.newtree.tech/privacy/ko/">개인정보</a>
+        <a href="https://lutsmith-app.newtree.tech/terms/ko/" class="active">약관</a>
+    </nav>
+    <div class="lang">
+      <label for="lang-select">언어: </label>
+      <select id="lang-select" onchange="if (this.value) window.location.href=this.value">
+          <option value="https://lutsmith-app.newtree.tech/support/">English</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hans/">简体中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hant/">繁體中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ja/">日本語</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ko/" selected>한국어</option>
+          <option value="https://lutsmith-app.newtree.tech/support/de/">Deutsch</option>
+          <option value="https://lutsmith-app.newtree.tech/support/fr/">Français</option>
+          <option value="https://lutsmith-app.newtree.tech/support/it/">Italiano</option>
+          <option value="https://lutsmith-app.newtree.tech/support/es/">Español</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <h1>이용 약관</h1>
+    <p class="lead">LUT Smith는 Apple App Store를 통해 제공되며 Apple의 표준 라이선스 애플리케이션 최종 사용자 라이선스 계약의 적용을 받습니다.</p>
+
+    <section class="card">
+      <h2>Apple 표준 EULA</h2>
+      <p>LUT Smith 사용은 App Store Connect에서 사용자 정의 EULA가 제공되지 않는 한 Apple Licensed Application End User License Agreement(표준 EULA)의 적용을 받습니다.</p>
+      <p><a class="button button-primary" href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener noreferrer">Apple 표준 EULA 보기</a></p>
+      <p class="meta"><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>
+    </section>
+
+    <section>
+      <h2>구독 및 구매</h2>
+      <p>LUT Smith Pro 구독 및 인앱 구매는 Apple이 처리합니다. 청구, 갱신, 취소, 환불은 App Store 약관과 Apple ID 설정을 따릅니다.</p>
+    </section>
+
+    <section>
+      <h2>개인정보</h2>
+      <p>LUT Smith가 데이터를 어떻게 처리하는지 개인정보 처리방침을 확인해 주세요. <a href="https://lutsmith-app.newtree.tech/privacy/ko/">개인정보</a></p>
+    </section>
+
+    <section>
+      <h2>지원</h2>
+      <p>제품 지원은 support@lutsmith-app.newtree.tech 으로 문의해 주세요.</p>
+    </section>
+  </main>
+  <footer>
+    <p>© NewTree. LUT Smith.</p>
+  </footer>
+</body>
+</html>

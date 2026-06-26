@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — LUT Smith</title>
+  <meta name="description" content="Privacy Policy">
+  <link rel="canonical" href="https://lutsmith-app.newtree.tech/privacy/">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #131313;
+      --surface: #201f1f;
+      --surface-high: #2a2a2a;
+      --text: #e5e2e1;
+      --muted: #b9cacb;
+      --accent: #00f0ff;
+      --border: #3b494b;
+      --max-width: 48rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); }
+    header, main, footer {
+      width: min(100% - 2rem, var(--max-width));
+      margin: 0 auto;
+    }
+    header {
+      padding: 1.5rem 0 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--muted);
+    }
+    nav a.active, nav a:hover {
+      color: var(--text);
+    }
+    .lang {
+      margin-top: 0.5rem;
+    }
+    .lang select {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.35rem 0.5rem;
+    }
+    main {
+      padding: 2rem 0 3rem;
+    }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      line-height: 1.2;
+      margin: 0 0 1rem;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+    }
+    section {
+      margin-bottom: 1.75rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-block;
+      background: var(--surface-high);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.65rem 1rem;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .button-primary {
+      border-color: var(--accent);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer {
+      padding: 0 0 2rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    ul { padding-left: 1.2rem; }
+    li + li { margin-top: 0.35rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">LUT Smith</div>
+    <nav>
+        <a href="https://lutsmith-app.newtree.tech/support/">Support</a>
+        <a href="https://lutsmith-app.newtree.tech/privacy/" class="active">Privacy</a>
+        <a href="https://lutsmith-app.newtree.tech/terms/">Terms</a>
+    </nav>
+    <div class="lang">
+      <label for="lang-select">Language: </label>
+      <select id="lang-select" onchange="if (this.value) window.location.href=this.value">
+          <option value="https://lutsmith-app.newtree.tech/support/" selected>English</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hans/">简体中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hant/">繁體中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ja/">日本語</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ko/">한국어</option>
+          <option value="https://lutsmith-app.newtree.tech/support/de/">Deutsch</option>
+          <option value="https://lutsmith-app.newtree.tech/support/fr/">Français</option>
+          <option value="https://lutsmith-app.newtree.tech/support/it/">Italiano</option>
+          <option value="https://lutsmith-app.newtree.tech/support/es/">Español</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="lead">LUT Smith is built around on-device LUT creation. This policy explains what LUT Smith does and does not collect.</p>
+    <p class="meta">Last updated: June 25, 2026</p>
+    <section>
+      <h2>Overview</h2>
+      <p>LUT Smith helps you design camera looks and export .cube LUT files. Projects stay on your device unless you export or share files yourself.</p>
+    </section>
+    <section>
+      <h2>Media and projects</h2>
+      <p>Source photos, RAW images, and selected video frames are processed on device and are not uploaded by LUT Smith. LUT projects are stored locally on your device.</p>
+    </section>
+    <section>
+      <h2>Photos library access</h2>
+      <p>LUT Smith requests Photos access only when you choose to import photos, RAW images, or video frames. Imported media is used for editing and export on your device.</p>
+    </section>
+    <section>
+      <h2>Accounts</h2>
+      <p>No account is required for local projects.</p>
+    </section>
+    <section>
+      <h2>Purchases and subscriptions</h2>
+      <p>LUT Smith Pro is sold through Apple's in-app purchase system. RevenueCat manages purchase and subscription status so the app can unlock Pro features and restore purchases. Purchase history may be processed for app functionality and analytics. It is not used for tracking and is not linked to your identity in LUT Smith.</p>
+    </section>
+    <section>
+      <h2>On-device storage</h2>
+      <p>LUT Smith uses on-device storage (UserDefaults) to remember app preferences and local project settings required for app functionality.</p>
+    </section>
+    <section>
+      <h2>Tracking</h2>
+      <p>LUT Smith does not track you across apps or websites owned by other companies.</p>
+    </section>
+    <section>
+      <h2>Support communications</h2>
+      <p>If you email support, your message may include app version and device details that we add automatically to help troubleshoot. Support emails do not include source photos, RAW images, or video frames unless you attach them.</p>
+    </section>
+    <section>
+      <h2>Children's privacy</h2>
+      <p>LUT Smith is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
+    </section>
+    <section>
+      <h2>Changes</h2>
+      <p>We may update this policy from time to time. Material changes will be reflected on this page with an updated date.</p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about privacy can be sent to support@lutsmith-app.newtree.tech.</p>
+    </section>
+  </main>
+  <footer>
+    <p>© NewTree. LUT Smith.</p>
+  </footer>
+</body>
+</html>

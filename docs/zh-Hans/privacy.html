@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隐私政策 — LUT工坊</title>
+  <meta name="description" content="隐私政策">
+  <link rel="canonical" href="https://lutsmith-app.newtree.tech/privacy/zh-Hans/">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #131313;
+      --surface: #201f1f;
+      --surface-high: #2a2a2a;
+      --text: #e5e2e1;
+      --muted: #b9cacb;
+      --accent: #00f0ff;
+      --border: #3b494b;
+      --max-width: 48rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); }
+    header, main, footer {
+      width: min(100% - 2rem, var(--max-width));
+      margin: 0 auto;
+    }
+    header {
+      padding: 1.5rem 0 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--muted);
+    }
+    nav a.active, nav a:hover {
+      color: var(--text);
+    }
+    .lang {
+      margin-top: 0.5rem;
+    }
+    .lang select {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.35rem 0.5rem;
+    }
+    main {
+      padding: 2rem 0 3rem;
+    }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      line-height: 1.2;
+      margin: 0 0 1rem;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+    }
+    section {
+      margin-bottom: 1.75rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-block;
+      background: var(--surface-high);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.65rem 1rem;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .button-primary {
+      border-color: var(--accent);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer {
+      padding: 0 0 2rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    ul { padding-left: 1.2rem; }
+    li + li { margin-top: 0.35rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">LUT工坊</div>
+    <nav>
+        <a href="https://lutsmith-app.newtree.tech/support/zh-Hans/">支持</a>
+        <a href="https://lutsmith-app.newtree.tech/privacy/zh-Hans/" class="active">隐私</a>
+        <a href="https://lutsmith-app.newtree.tech/terms/zh-Hans/">条款</a>
+    </nav>
+    <div class="lang">
+      <label for="lang-select">语言: </label>
+      <select id="lang-select" onchange="if (this.value) window.location.href=this.value">
+          <option value="https://lutsmith-app.newtree.tech/support/">English</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hans/" selected>简体中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hant/">繁體中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ja/">日本語</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ko/">한국어</option>
+          <option value="https://lutsmith-app.newtree.tech/support/de/">Deutsch</option>
+          <option value="https://lutsmith-app.newtree.tech/support/fr/">Français</option>
+          <option value="https://lutsmith-app.newtree.tech/support/it/">Italiano</option>
+          <option value="https://lutsmith-app.newtree.tech/support/es/">Español</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <h1>隐私政策</h1>
+    <p class="lead">LUT Smith 以设备端 LUT 创作为核心。本政策说明 LUT Smith 会收集和不会收集哪些信息。</p>
+    <p class="meta">最后更新: June 25, 2026</p>
+    <section>
+      <h2>概述</h2>
+      <p>LUT Smith 帮助你设计相机风格并导出 .cube LUT 文件。除非你自行导出或分享，项目会保留在你的设备上。</p>
+    </section>
+    <section>
+      <h2>媒体与项目</h2>
+      <p>源照片、RAW 图像和选定的视频帧在设备端处理，LUT Smith 不会上传这些内容。LUT 项目存储在本地。</p>
+    </section>
+    <section>
+      <h2>照片图库访问</h2>
+      <p>只有在你选择导入照片、RAW 或视频帧时，LUT Smith 才会请求照片权限。导入的媒体仅用于设备端编辑与导出。</p>
+    </section>
+    <section>
+      <h2>账号</h2>
+      <p>本地项目无需账号。</p>
+    </section>
+    <section>
+      <h2>购买与订阅</h2>
+      <p>LUT Smith Pro 通过 Apple 应用内购买销售。RevenueCat 管理购买与订阅状态，以便解锁 Pro 功能并恢复购买。购买记录可能用于应用功能与分析，不用于跨应用跟踪，也不会在 LUT Smith 中与你的身份关联。</p>
+    </section>
+    <section>
+      <h2>设备端存储</h2>
+      <p>LUT Smith 使用设备端存储（UserDefaults）保存应用偏好和本地项目设置。</p>
+    </section>
+    <section>
+      <h2>跟踪</h2>
+      <p>LUT Smith 不会在其他公司拥有的应用或网站中跟踪你。</p>
+    </section>
+    <section>
+      <h2>支持通信</h2>
+      <p>如果你发送支持邮件，邮件可能包含我们自动添加的应用版本和设备信息。除非你主动附加，邮件不会包含源照片、RAW 或视频帧。</p>
+    </section>
+    <section>
+      <h2>儿童隐私</h2>
+      <p>LUT Smith 不面向 13 岁以下儿童，我们也不会故意收集儿童个人信息。</p>
+    </section>
+    <section>
+      <h2>变更</h2>
+      <p>我们可能会更新本政策。重要变更会在此页面更新日期后反映。</p>
+    </section>
+    <section>
+      <h2>联系</h2>
+      <p>隐私相关问题请发送至 support@lutsmith-app.newtree.tech。</p>
+    </section>
+  </main>
+  <footer>
+    <p>© NewTree. LUT工坊。</p>
+  </footer>
+</body>
+</html>

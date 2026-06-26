@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soporte de LUT Smith — LUT Smith</title>
+  <meta name="description" content="Soporte de LUT Smith">
+  <link rel="canonical" href="https://lutsmith-app.newtree.tech/support/es/">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #131313;
+      --surface: #201f1f;
+      --surface-high: #2a2a2a;
+      --text: #e5e2e1;
+      --muted: #b9cacb;
+      --accent: #00f0ff;
+      --border: #3b494b;
+      --max-width: 48rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); }
+    header, main, footer {
+      width: min(100% - 2rem, var(--max-width));
+      margin: 0 auto;
+    }
+    header {
+      padding: 1.5rem 0 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--muted);
+    }
+    nav a.active, nav a:hover {
+      color: var(--text);
+    }
+    .lang {
+      margin-top: 0.5rem;
+    }
+    .lang select {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.35rem 0.5rem;
+    }
+    main {
+      padding: 2rem 0 3rem;
+    }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      line-height: 1.2;
+      margin: 0 0 1rem;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+    }
+    section {
+      margin-bottom: 1.75rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-block;
+      background: var(--surface-high);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.65rem 1rem;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .button-primary {
+      border-color: var(--accent);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer {
+      padding: 0 0 2rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    ul { padding-left: 1.2rem; }
+    li + li { margin-top: 0.35rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">LUT Smith</div>
+    <nav>
+        <a href="https://lutsmith-app.newtree.tech/support/es/" class="active">Soporte</a>
+        <a href="https://lutsmith-app.newtree.tech/privacy/es/">Privacidad</a>
+        <a href="https://lutsmith-app.newtree.tech/terms/es/">Términos</a>
+    </nav>
+    <div class="lang">
+      <label for="lang-select">Idioma: </label>
+      <select id="lang-select" onchange="if (this.value) window.location.href=this.value">
+          <option value="https://lutsmith-app.newtree.tech/support/">English</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hans/">简体中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hant/">繁體中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ja/">日本語</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ko/">한국어</option>
+          <option value="https://lutsmith-app.newtree.tech/support/de/">Deutsch</option>
+          <option value="https://lutsmith-app.newtree.tech/support/fr/">Français</option>
+          <option value="https://lutsmith-app.newtree.tech/support/it/">Italiano</option>
+          <option value="https://lutsmith-app.newtree.tech/support/es/" selected>Español</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <h1>Soporte de LUT Smith</h1>
+    <p class="lead">Crea LUT de cámara personalizados en iPhone y iPad, prévisualízalos en varias escenas y exporta archivos .cube estándar para apps de cámara y editores.</p>
+
+    <section class="card">
+      <h2>Contactar soporte</h2>
+      <p>Para exportación, suscripciones, compatibilidad o informes de errores, envíanos un correo con los pasos que seguiste y el resultado esperado.</p>
+      <p><a class="button button-primary" href="mailto:support@lutsmith-app.newtree.tech?subject=LUT%20Smith%20Support">Enviar correo</a></p>
+      <p class="meta">support@lutsmith-app.newtree.tech</p>
+    </section>
+
+    <section>
+      <h2>Enlaces rápidos</h2>
+      <p><a href="https://lutsmith-app.newtree.tech/privacy/es/">Privacidad</a> · <a href="https://lutsmith-app.newtree.tech/terms/es/">Términos</a></p>
+    </section>
+
+    <section>
+      <h2>Preguntas frecuentes</h2>
+    <section class="card">
+      <h2>¿Se suben mis medios de origen?</h2>
+      <p>No. LUT Smith procesa fotos, imágenes RAW y fotogramas de vídeo seleccionados en tu dispositivo. Los medios de origen no se suben a servidores de LUT Smith.</p>
+    </section>
+    <section class="card">
+      <h2>¿Necesito una cuenta?</h2>
+      <p>No se requiere cuenta para proyectos LUT locales. El acceso a Fotos solo se solicita cuando importas desde la biblioteca.</p>
+    </section>
+    <section class="card">
+      <h2>¿Cómo funcionan las suscripciones?</h2>
+      <p>LUT Smith Pro se vende a través del App Store. Las compras y el estado de suscripción los gestionan Apple y RevenueCat. Puedes restaurar compras en Ajustes.</p>
+    </section>
+    <section class="card">
+      <h2>¿Qué incluye una LUT .cube?</h2>
+      <p>Las LUT .cube estándar almacenan transformaciones de color globales. Efectos solo de vista previa como grano, máscaras, desenfoque y brillo no se incluyen salvo que puedan representarse como cambios globales de color.</p>
+    </section>
+    <section class="card">
+      <h2>¿Cómo probar la compatibilidad?</h2>
+      <p>Exporta una LUT identidad 17× y una LUT con estilo, impórtalas en la app destino y comprueba que la identidad no cambia nada y la LUT con estilo coincide con la vista previa cuando los perfiles de entrada/salida coinciden.</p>
+    </section>
+    </section>
+  </main>
+  <footer>
+    <p>© NewTree. LUT Smith.</p>
+  </footer>
+</body>
+</html>

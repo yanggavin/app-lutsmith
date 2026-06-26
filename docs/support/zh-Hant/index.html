@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUT Smith 支援 — LUT Smith</title>
+  <meta name="description" content="LUT Smith 支援">
+  <link rel="canonical" href="https://lutsmith-app.newtree.tech/support/zh-Hant/">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #131313;
+      --surface: #201f1f;
+      --surface-high: #2a2a2a;
+      --text: #e5e2e1;
+      --muted: #b9cacb;
+      --accent: #00f0ff;
+      --border: #3b494b;
+      --max-width: 48rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); }
+    header, main, footer {
+      width: min(100% - 2rem, var(--max-width));
+      margin: 0 auto;
+    }
+    header {
+      padding: 1.5rem 0 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--muted);
+    }
+    nav a.active, nav a:hover {
+      color: var(--text);
+    }
+    .lang {
+      margin-top: 0.5rem;
+    }
+    .lang select {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.35rem 0.5rem;
+    }
+    main {
+      padding: 2rem 0 3rem;
+    }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      line-height: 1.2;
+      margin: 0 0 1rem;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+    }
+    section {
+      margin-bottom: 1.75rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-block;
+      background: var(--surface-high);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.65rem 1rem;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .button-primary {
+      border-color: var(--accent);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer {
+      padding: 0 0 2rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    ul { padding-left: 1.2rem; }
+    li + li { margin-top: 0.35rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">LUT Smith</div>
+    <nav>
+        <a href="https://lutsmith-app.newtree.tech/support/zh-Hant/" class="active">支援</a>
+        <a href="https://lutsmith-app.newtree.tech/privacy/zh-Hant/">隱私</a>
+        <a href="https://lutsmith-app.newtree.tech/terms/zh-Hant/">條款</a>
+    </nav>
+    <div class="lang">
+      <label for="lang-select">語言: </label>
+      <select id="lang-select" onchange="if (this.value) window.location.href=this.value">
+          <option value="https://lutsmith-app.newtree.tech/support/">English</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hans/">简体中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/zh-Hant/" selected>繁體中文</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ja/">日本語</option>
+          <option value="https://lutsmith-app.newtree.tech/support/ko/">한국어</option>
+          <option value="https://lutsmith-app.newtree.tech/support/de/">Deutsch</option>
+          <option value="https://lutsmith-app.newtree.tech/support/fr/">Français</option>
+          <option value="https://lutsmith-app.newtree.tech/support/it/">Italiano</option>
+          <option value="https://lutsmith-app.newtree.tech/support/es/">Español</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <h1>LUT Smith 支援</h1>
+    <p class="lead">在 iPhone 和 iPad 上建立自訂相機 LUT，跨場景預覽，並匯出適用於相機 App 與剪輯軟體的業界標準 .cube 檔案。</p>
+
+    <section class="card">
+      <h2>聯絡支援</h2>
+      <p>如需匯出、訂閱、相容性或錯誤回報方面的協助，請寄信並說明操作步驟與預期結果。</p>
+      <p><a class="button button-primary" href="mailto:support@lutsmith-app.newtree.tech?subject=LUT%20Smith%20Support">寄送郵件</a></p>
+      <p class="meta">support@lutsmith-app.newtree.tech</p>
+    </section>
+
+    <section>
+      <h2>快速連結</h2>
+      <p><a href="https://lutsmith-app.newtree.tech/privacy/zh-Hant/">隱私</a> · <a href="https://lutsmith-app.newtree.tech/terms/zh-Hant/">條款</a></p>
+    </section>
+
+    <section>
+      <h2>常見問題</h2>
+    <section class="card">
+      <h2>我的來源媒體會上傳嗎？</h2>
+      <p>不會。LUT Smith 會在你的裝置上處理照片、RAW 影像與選定的影片影格，來源媒體不會上傳至 LUT Smith 伺服器。</p>
+    </section>
+    <section class="card">
+      <h2>需要帳號嗎？</h2>
+      <p>本機 LUT 專案無需帳號。只有在你選擇從照片圖庫匯入時才會要求照片權限。</p>
+    </section>
+    <section class="card">
+      <h2>訂閱如何運作？</h2>
+      <p>LUT Smith Pro 透過 App Store 銷售。購買與訂閱狀態由 Apple 與 RevenueCat 管理。你可以在設定中恢復購買。</p>
+    </section>
+    <section class="card">
+      <h2>.cube LUT 包含什麼？</h2>
+      <p>標準 .cube LUT 儲存全域色彩轉換。顆粒、遮罩、模糊、光暈等僅供預覽的渲染效果不會包含在內，除非可表示為全域色彩變化。</p>
+    </section>
+    <section class="card">
+      <h2>如何測試相容性？</h2>
+      <p>匯出 17× 單位 LUT 與一個風格化 LUT，在目標 App 中分別匯入；當輸入/輸出設定檔相符時，單位 LUT 應無變化，風格化 LUT 應與預覽一致。</p>
+    </section>
+    </section>
+  </main>
+  <footer>
+    <p>© NewTree. LUT Smith.</p>
+  </footer>
+</body>
+</html>
